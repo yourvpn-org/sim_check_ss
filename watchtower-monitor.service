@@ -1,0 +1,8 @@
+[Unit]
+Description=Watchtower container health monitor
+After=docker.service
+Requires=docker.service
+
+[Service]
+Type=oneshot
+ExecStart={{REPO_PATH}}/watchtower_monitor.sh
