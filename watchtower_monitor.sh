@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set your container name and start command
-CONTAINER_NAME="watchtower"
+CONTAINER_NAME="shadowbox"
 START_COMMAND="bash /opt/outline/persisted-state/start_container.sh"
 
 # Check if the container exists and is running healthily
